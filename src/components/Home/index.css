@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+
+.header-container {
+  background-color: whitesmoke;
+  padding: 10px;
+  height: 100px;
+}
+
+.logo-img {
+  width: 200px;
+  margin-left: 100px;
+}
+
+.failure-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  height: 100vh;
+}
+
+.f-img {
+  width: 500px;
+  margin: 10px;
+}
+
+.f-heading {
+  font-size: 36px;
+  line-height: 2;
+}
+
+.f-caption {
+  font-size: 16px;
+  font-weight: 400;
+  color: lightslategrey;
+}
+
+.f-btn {
+  border: none;
+  background-color: lightskyblue;
+  color: black;
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.content-container {
+  padding: 20px;
+}
+
+select {
+  width: 400px;
+  outline: none;
+  border: 1px solid black;
+  height: 50px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+.loader-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+ul {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 80px;
+}
+
+li {
+  margin: 10px;
+}
+
+.item-card {
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 15px 0px black;
+}
+
+.name {
+  padding: 10px;
+  background-color: whitesmoke;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 2;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
